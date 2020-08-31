@@ -7,13 +7,16 @@ main{
   background-image: url(../media/background.jpg);
   background-repeat: no-repeat;
   background-size: auto;
-  height: 600px;
-  background-position: center;
+  height: 1500px;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 30em;
 }
 
+
 nav{
+  
   background-color: #333;
   display: block;
   width: 80%;
@@ -22,13 +25,21 @@ nav{
   -webkit-font-smoothing: antialiased;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
   border-radius: 4px;
+  
+
 }
 
 nav > ul {
   list-style: none;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   text-align: center;
-  margin: auto;
+  
+}
+.ul-elements{
+  align-items: center;
+  margin-block-end: 20em;
+  
+
 }
 
 .nav-li {
