@@ -7,57 +7,58 @@ main{
   background-image: url(../media/background.jpg);
   background-repeat: no-repeat;
   background-size: auto;
-  height: 1500px;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30em;
+  height: 600px;
+  padding-top: 8%;
 }
 
 
 nav{
-  
-  background-color: #333;
+  position: static;
+  background-color: #666;
   display: block;
   width: 80%;
   margin: auto;
-  color: #333;
   -webkit-font-smoothing: antialiased;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
   border-radius: 4px;
-  
-
 }
 
 nav > ul {
   list-style: none;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   text-align: center;
-  
+
 }
-.ul-elements{
+
+.nav-ul{
   align-items: center;
   margin-block-end: 20em;
-  
-
+  vertical-align: middle;
+  line-height: 35px;
 }
 
 .nav-li {
   width: 10%;
   text-align: center;
-  border-left: solid white 1px;
+  border-left: solid black 1px;
   display: inline-block;
   margin: 0;
   font-size: 14px;
   color: white;
   height: 36px;
+
 }
 
 .nav-li:hover{
-  background-color: #666;
+  background-color: #333;
 }
 
 .search-icon {
+  border-left: none;
   color: white;
   display: inline-block;
 }
