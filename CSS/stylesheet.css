@@ -162,12 +162,13 @@ footer a:hover{
 .list-para{
   margin-left: 10%;
   text-align: center;
-  margin-right: 10%;
+    width:35%;
 }
 
 .footer-links{
   text-align: center;
   display: inline-block;
+  float:right;
 }
 
 .footer-links >li{
