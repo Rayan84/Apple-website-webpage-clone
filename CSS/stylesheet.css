@@ -1,16 +1,18 @@
 body {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-}
-
-main{
-  top: 0;
+  top: 0 important!;
+  margin-top: 0 important!;
   background-image: url(../media/background.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
+}
+
+main{
+
+
   padding-top: 8%;
 }
 
@@ -36,13 +38,16 @@ nav > ul {
   align-items: center;
   vertical-align: middle;
   line-height: 50px;
+  width: 100%;
+  padding-left: 0;
+
 }
 
 .nav-li {
   margin-left: 0;
   width: 10%;
   text-align: center;
-  border-left: solid black 1px;
+  border-right: solid black 1px;
   display: inline-block;
   font-size: 14px;
   color: white;
@@ -50,25 +55,36 @@ nav > ul {
 }
 
 .apple-logo-li{
-  font-size: 26px;
+  font-size: 30px;
+  vertical-align: middle;
 }
 
 .search-li{
   display: inline-block;
   position: relative;
-  width:100px;
-
+  width:13%;
+  border-right-style: none;
 }
+
 .fas{
 left: 0;
+}
+
+.search-icon {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  border-left: none;
+  color: white;
 }
 
 .search-input{
   width: 100%;
   margin: auto;
   background-color: #666;
-  border-radius:10px;
-  padding:0.4% 0  0 0 ;
+  border-radius:30px;
+  height: 50%;
+  border: solid black 1px;
 }
 
 .text-photos-container {
@@ -97,25 +113,24 @@ left: 0;
   background-color: #333;
 }
 
-.search-icon {
-  position: absolute;
-  top: 30%;
-  left: 30%;
-  border-left: none;
-  color: white;
-}
 
 .grid-images{
+  width: 100%;
+  margin-top: 8%;
+  margin-right: 0;
   display: grid;
   border: solid 1px white;
-  grid-template-columns: repeat(4, 2fr);
+  border-right-style: none;
+  grid-template-columns: repeat(4, 25%);
   grid-gap: 0.1em;
 }
+
 .grid-row-images>img{
   width:100%;
 }
 footer{
   font-size: 10px;
+  background-color: white;
 }
 footer a{
   text-decoration: none;
@@ -129,14 +144,14 @@ footer a:hover{
 
   justify-content: space-between ;
   width:100%;
-  
+
 }
 
 .list-para{
   text-align:center;
   padding-left: 3em;
 
-  
+
   justify-content: center;
 }
 
