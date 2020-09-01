@@ -62,3 +62,13 @@ nav > ul {
   color: white;
   display: inline-block;
 }
+.grid-images{
+  background-color: blue;
+  display: grid;
+  border: solid 1px white;
+  grid-template-columns: repeat(4, 2fr);
+    grid-gap: 0.1em;
+}
+.grid-row-images>img{
+  width:100%;
+}
