@@ -20,37 +20,73 @@ nav{
   position: static;
   background-color: #666;
   display: block;
-  width: 80%;
-  margin: auto;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
   -webkit-font-smoothing: antialiased;
   box-shadow: rgba(0,0,0,0.3) 0 1px 2px;
   border-radius: 4px;
+  line-height: 60px;
 }
 
 nav > ul {
   list-style: none;
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   text-align: center;
-
-}
-
-.nav-ul{
   align-items: center;
-  margin-block-end: 20em;
   vertical-align: middle;
-  line-height: 35px;
+  line-height: 50px;
 }
 
 .nav-li {
+  margin-left: 0;
   width: 10%;
   text-align: center;
   border-left: solid black 1px;
   display: inline-block;
-  margin: 0;
   font-size: 14px;
   color: white;
-  height: 36px;
+  height: 50px;
+}
 
+.apple-logo-li{
+  font-size: 26px;
+}
+
+.search-li{
+  display: inline-block;
+  position: relative;
+
+}
+
+.search-input{
+  width: 95%;
+  margin: auto;
+  background-color: #666;
+  border-radius: 30%;
+}
+
+.text-photos-container {
+  margin-top: 0;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.title-img{
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+.text-image-2 {
+ width: 100%;
+}
+
+.text-image-3 {
+  width: 60%;
+  margin: auto;
 }
 
 .nav-li:hover{
@@ -58,23 +94,25 @@ nav > ul {
 }
 
 .search-icon {
+  position: absolute;
+  top: 30%;
+  left: 30%;
   border-left: none;
   color: white;
-  display: inline-block;
 }
-.grid-images{
 
+.grid-images{
   display: grid;
   border: solid 1px white;
   grid-template-columns: repeat(4, 2fr);
-    grid-gap: 0.1em;
+  grid-gap: 0.1em;
 }
 .grid-row-images>img{
   width:100%;
 }
 .list{
   display:flex;
-  
+
   justify-content: space-between ;
   width:100%;
 }
@@ -88,7 +126,7 @@ nav > ul {
 }
 .footer-links{
   padding-left:2px;
-  
+
 }
 .footer-links >li{
   list-style: none;
