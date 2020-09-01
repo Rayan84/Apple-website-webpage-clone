@@ -1,26 +1,24 @@
 body {
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-  top: 0 important!;
-  margin-top: 0 important!;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+main{
   background-image: url(../media/background.jpg);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-main{
-  margin-bottom: 80em;
   padding-top: 8%;
   height:600px;
-  cursor:pointer;
 }
 
 
 nav{
   position: static;
-  background-color: #666;
+  background: -webkit-linear-gradient(top,#8b8b8b 0%,#6a6a6a 50%,#5e5e5e 51%,#717171 100%);
   display: block;
   width: 70%;
   margin-left: auto;
@@ -80,18 +78,18 @@ left: 0;
 }
 
 .search-input{
-  width: 100%;
+  width: 90%;
   margin: auto;
   background-color: #666;
   border-radius:30px;
   height: 50%;
-  border: solid black 1px;
 }
 
 .text-photos-container {
   margin-top: 0;
   width: 60%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
 }
 
@@ -99,22 +97,26 @@ left: 0;
   width: 90%;
   display: block;
   margin: auto;
+  cursor:pointer;
 }
 
 .text-image-2 {
  width: 100%;
+ cursor:pointer;
 }
 
 .text-image-3 {
-  padding-top:15em;
+  padding-top:25px;
   width: 60%;
   margin: auto;
+  cursor:pointer;
 }
+
 .text-image-3:hover{
   cursor:pointer;
-  text-decoration: underline;
-
+  border-bottom: solid white 1px;
 }
+
 .nav-li:hover{
   background-color: #333;
 }
@@ -122,7 +124,6 @@ left: 0;
 
 .grid-images{
   width: 100%;
-  margin-top: 8%;
   margin-right: 0;
   display: grid;
   border: solid 1px white;
@@ -136,12 +137,12 @@ left: 0;
   width:100%;
 }
 footer{
-  font-size: 10px;
+  font-size: 14px;
+  line-height: 1.2;
   background-color: white;
   color:gray;
-
-  
 }
+
 footer a{
   text-decoration: none;
   color: #2d70d2;;
@@ -150,28 +151,23 @@ footer a:hover{
   text-decoration:underline;
 }
 .list{
-  display:flex;
-
   justify-content: space-between ;
   width:100%;
+}
 
+.inline-block{
+  display: inline-block;
 }
 
 .list-para{
-  text-align:center;
-  padding:6px 0  0 8em ;
+  margin-left: 10%;
   text-align: center;
+  margin-right: 10%;
 }
 
 .footer-links{
-  margin-left:10em;
-  float: right;
-  margin-right: 10em;
-  
   text-align: center;
-  padding-bottom:0.1em;
-  float: top;
-
+  display: inline-block;
 }
 
 .footer-links >li{
@@ -188,6 +184,5 @@ width:30px;
   width:15px;
 }
 .last-para{
-  padding-left: 8em;
-
+  margin-left: 10%;
 }
