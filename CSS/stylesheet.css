@@ -15,7 +15,6 @@ main{
   padding-bottom: 10%;
 }
 
-
 nav{
   position: static;
   background: -webkit-linear-gradient(top,#8b8b8b 0%,#6a6a6a 50%,#5e5e5e 51%,#717171 100%);
@@ -51,19 +50,19 @@ nav > ul {
   line-height: 30px;
 }
 
-.apple-logo-li{
+.apple-logo-li {
   font-size: 30px;
   vertical-align: middle;
 }
 
-.search-li{
+.search-li {
   display: inline-block;
   position: relative;
   width:13%;
   border-right-style: none;
 }
 
-.fas{
+.fas {
 left: 0;
 }
 
@@ -75,7 +74,7 @@ left: 0;
   color: white;
 }
 
-.search-input{
+.search-input {
   width: 90%;
   margin: auto;
   background-color: #666;
@@ -91,7 +90,7 @@ left: 0;
   text-align: center;
 }
 
-.title-img{
+.title-img {
   width: 90%;
   display: block;
   margin: auto;
@@ -111,17 +110,17 @@ left: 0;
   cursor:pointer;
 }
 
-.text-image-3:hover{
+.text-image-3:hover {
   cursor:pointer;
   border-bottom: solid white 1px;
 }
 
-.nav-li:hover{
+.nav-li:hover {
   background-color: #333;
 }
 
 
-.grid-images{
+.grid-images {
   width: 100%;
   margin-right: 0;
   display: grid;
@@ -132,20 +131,22 @@ left: 0;
   cursor:pointer;
 }
 
-.grid-row-images>img{
+.grid-row-images > img {
   width:100%;
 }
-footer{
+
+footer {
   font-size: 10px;
   line-height: 1.2;
   background-color: white;
   color:gray;
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: #2d70d2;;
 }
+
 footer a:hover{
   text-decoration:underline;
 }
@@ -154,25 +155,26 @@ footer a:hover{
   width:100%;
 }
 
-.inline-block{
+.inline-block {
   display: inline-block;
 }
 
-.list-para{
+.list-para {
   margin-left: 10%;
   text-align: center;
   margin-right: 5%;
 }
 
-.footer-links{
+.footer-links {
   text-align: center;
   display: inline-block;
 }
 
-.footer-links >li{
+.footer-links >li {
   list-style: none;
   display: inline-block;
 }
+
 .li-us{
 width:30px;
 }
