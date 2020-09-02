@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 
-main {
+.main-section {
   background-image: url(../media/background.jpg);
   background-repeat: no-repeat;
   background-position: top;
@@ -35,7 +35,6 @@ nav > ul {
   line-height: 35px;
   width: 100%;
   padding-left: 0;
-  margin-left: 0;
 }
 
 .nav-li {
@@ -46,7 +45,10 @@ nav > ul {
   font-size: 14px;
   color: white;
   line-height: 30px;
-  margin-left: 0;
+}
+
+.nav-li a {
+  color: white;
 }
 
 .apple-logo-li {
@@ -118,8 +120,7 @@ nav > ul {
 }
 
 .grid-images {
-  width: 100%;
-  margin-right: 0;
+  width: 94.5%;
   display: grid;
   border: solid 1px white;
   border-right-style: none;
@@ -149,7 +150,6 @@ footer a:hover {
 
 .list {
   justify-content: space-between;
-  width: 100%;
 }
 
 .inline-block {
@@ -165,7 +165,7 @@ footer a:hover {
 .footer-links {
   text-align: center;
   display: inline-block;
-  float: right;
+  
 }
 
 .footer-links > li {
@@ -193,3 +193,12 @@ footer a:hover {
 .text-image-3:hover {
   cursor: pointer;
 }
+.m-right{
+ margin-right:0;
+}
+
+.m-left{
+  margin-left:0;
+}
+
+

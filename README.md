@@ -2,7 +2,7 @@
 This project consists of building a webpage using images as a background and adding gradients to elements. The goal is to make a clone of old an old version of the Apple website webpage.
 
 
-[screenshot](screenshot.PNG)
+(screenshot.PNG)
 
 ## Live Demo
 ---
@@ -18,7 +18,7 @@ This project consists of building a webpage using images as a background and add
 ---
 #### Dibyendu Das
 * Github:[@DibDas](https://github.com/dibdas)
-* Twitter:[@DIBYEND78120480]
+* Twitter:[@DIBYEND78120480]https://twitter.com/DIBYEND78120480
 * LinkedIn:[Dibyendu Das](https://www.linkedin.com/in/dibyendu-das-b5967a1b1/)
 
 #### Rayan Rassam
