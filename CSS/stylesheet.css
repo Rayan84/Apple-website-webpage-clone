@@ -1,5 +1,4 @@
 body {
-
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   padding: 0;
   margin: 0;
@@ -40,8 +39,13 @@ nav > ul {
   line-height: 35px;
 }
 
-.nav-li:hover{
-  background: rgba(0,0,0,.3);
+.nav-li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+footer a {
+  text-decoration: none;
+  color: #2d70d2;
 }
 
 .nav-li a {
@@ -100,7 +104,6 @@ nav > ul {
 
 .text-image-3:hover {
   border-bottom: solid white 1px;
-  border
 }
 
 .grid-images {
@@ -110,7 +113,7 @@ nav > ul {
   justify-content: center;
 }
 
-.grid-row-images{
+.grid-row-images {
   width: 100%;
 }
 
@@ -119,11 +122,6 @@ footer {
   line-height: 1.2;
   background-color: white;
   color: gray;
-}
-
-footer a {
-  text-decoration: none;
-  color: #2d70d2;
 }
 
 footer a:hover {
