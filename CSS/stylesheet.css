@@ -31,7 +31,7 @@ nav > ul {
   padding-left: 0;
 }
 
-.nav-li {
+.nav-li, .nav-li-input{
   width: 10%;
   border-right: solid black 1px;
   font-size: 14px;
@@ -100,6 +100,7 @@ footer a {
 .text-image-3 {
   margin-top: 40px;
   width: 60%;
+  border-bottom: solid transparent 1px;
 }
 
 .text-image-3:hover {
