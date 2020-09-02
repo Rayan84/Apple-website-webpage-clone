@@ -1,4 +1,5 @@
 body {
+
   font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   padding: 0;
   margin: 0;
@@ -14,9 +15,8 @@ body {
 }
 
 nav {
-  position: static;
   background: -webkit-linear-gradient(top, #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 51%, #717171 100%);
-  width: 70%;
+  width: 68%;
   margin-bottom: 5%;
   -webkit-font-smoothing: antialiased;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
@@ -24,11 +24,10 @@ nav {
 }
 
 nav > ul {
+  display: flex;
   list-style: none;
-  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
   align-items: center;
   vertical-align: middle;
-  line-height: 35px;
   width: 100%;
   padding-left: 0;
 }
@@ -38,12 +37,11 @@ nav > ul {
   border-right: solid black 1px;
   font-size: 14px;
   color: white;
-  line-height: 30px;
+  line-height: 35px;
 }
 
-footer a {
-  text-decoration: none;
-  color: #2d70d2;
+.nav-li:hover{
+  background: rgba(0,0,0,.3);
 }
 
 .nav-li a {
@@ -58,7 +56,7 @@ footer a {
 
 .search-li {
   position: relative;
-  width: 13%;
+  width: 18%;
   border-right-style: none;
 }
 
@@ -79,6 +77,7 @@ footer a {
   background-color: #666;
   border-radius: 30px;
   height: 50%;
+  margin-left: 25%;
 }
 
 .text-photos-container {
@@ -101,18 +100,17 @@ footer a {
 
 .text-image-3:hover {
   border-bottom: solid white 1px;
+  border
 }
 
 .grid-images {
-  width: 94.5%;
-  display: grid;
+  display: flex;
   border: solid 1px white;
   border-right-style: none;
-  grid-template-columns: repeat(4, 25%);
-  grid-gap: 0.1em;
+  justify-content: center;
 }
 
-.grid-row-images > img {
+.grid-row-images{
   width: 100%;
 }
 
@@ -121,6 +119,11 @@ footer {
   line-height: 1.2;
   background-color: white;
   color: gray;
+}
+
+footer a {
+  text-decoration: none;
+  color: #2d70d2;
 }
 
 footer a:hover {
