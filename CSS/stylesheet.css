@@ -41,6 +41,11 @@ nav > ul {
   line-height: 30px;
 }
 
+footer a {
+  text-decoration: none;
+  color: #2d70d2;
+}
+
 .nav-li a {
   color: white;
   text-decoration: none;
@@ -125,11 +130,6 @@ footer {
   color: gray;
 }
 
-footer a {
-  text-decoration: none;
-  color: #2d70d2;
-}
-
 footer a:hover {
   text-decoration: underline;
 }
@@ -149,7 +149,6 @@ footer a:hover {
 
 .footer-links > li {
   list-style: none;
-  
 }
 
 .li-us {
@@ -172,35 +171,31 @@ footer a:hover {
 .text-image-3:hover {
   cursor: pointer;
 }
-.m-right{
- margin-right: 0;
+
+.m-right {
+  margin-right: 0;
 }
 
-.m-left{
+.m-left {
   margin-left: 0;
 }
 
-.m-left-auto{
+.m-left-auto {
   margin-left: auto;
 }
 
-.m-right-auto{
+.m-right-auto {
   margin-right: auto;
 }
 
-.text-decoration{
+.text-decoration {
   text-align: center;
 }
-.m-auto{
-  margin:auto
+
+.m-auto {
+  margin: auto;
 }
 
-.d-display{
-  display:auto;
+.d-display {
+  display: auto;
 }
-
-
-
-
-
-
