@@ -31,7 +31,8 @@ nav > ul {
   padding-left: 0;
 }
 
-.nav-li, .nav-li-input{
+.nav-li,
+.nav-li-input {
   width: 10%;
   border-right: solid black 1px;
   font-size: 14px;
