@@ -103,13 +103,6 @@ footer a {
   border-bottom: solid white 1px;
 }
 
-.nav-li:hover {
-  background: rgba(0, 0, 0, 0.3);
-  border-right: 1px solid transparent;
-  border-left: 1px solid transparent;
-  border-bottom: none;
-}
-
 .grid-images {
   width: 94.5%;
   display: grid;
