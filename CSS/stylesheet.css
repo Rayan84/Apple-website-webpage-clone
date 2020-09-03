@@ -1,0 +1,184 @@
+body {
+  font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.main-section {
+  background-image: url(../media/background.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  padding-top: 6%;
+  padding-bottom: 10%;
+}
+
+nav {
+  background: -webkit-linear-gradient(top, #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 51%, #717171 100%);
+  margin-bottom: 5%;
+  -webkit-font-smoothing: antialiased;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  border-radius: 4px;
+}
+
+nav > ul {
+  list-style: none;
+  align-items: center;
+  vertical-align: middle;
+  padding-left: 0;
+}
+
+.nav-li,
+.nav-li-input {
+  width: 10%;
+  border-right: solid black 1px;
+  font-size: 14px;
+  line-height: 35px;
+}
+
+.nav-li:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+footer a {
+  color: #2d70d2;
+}
+
+.apple-logo-li {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.search-li {
+  position: relative;
+  width: 18%;
+  border-right-style: none;
+}
+
+.fas {
+  left: 0;
+}
+
+.search-icon {
+  position: absolute;
+  top: 35%;
+  left: 10%;
+  border-left: none;
+}
+
+.search-input {
+  background-color: #666;
+  border-radius: 30px;
+  height: 50%;
+  margin-left: 25%;
+}
+
+.text-photos-container {
+  margin-top: 0;
+}
+
+.text-image-3 {
+  margin-top: 40px;
+  border-bottom: solid transparent 1px;
+}
+
+.text-image-3:hover {
+  border-bottom: solid white 1px;
+}
+
+.grid-images {
+  border-right-style: none;
+  justify-content: center;
+}
+
+footer {
+  font-size: 10px;
+  line-height: 1.2;
+  background-color: white;
+  color: gray;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.footer-links > li {
+  list-style: none;
+}
+
+.li-us {
+  width: 30px;
+}
+
+.us {
+  padding: 3px 0 0 0;
+}
+
+.footer-links > li img {
+  width: 15px;
+}
+
+.pointer,
+.text-image-3:hover {
+  cursor: pointer;
+}
+
+.m-right {
+  margin-right: 0;
+}
+
+.m-left {
+  margin-left: 0;
+}
+
+.m-left-auto {
+  margin-left: auto;
+}
+
+.m-right-auto {
+  margin-right: auto;
+}
+
+.text-decoration {
+  text-align: center;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-68 {
+  width: 68%;
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.text-none {
+  text-decoration: none;
+}
+
+.w-color {
+  color: white;
+}
+
+.border-white-1px {
+  border: solid white 1px;
+}
