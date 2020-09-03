@@ -92,6 +92,7 @@ footer a {
 }
 
 footer {
+  width: 70%;
   font-size: 10px;
   line-height: 1.2;
   background-color: white;
