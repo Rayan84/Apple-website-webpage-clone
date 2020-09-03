@@ -15,7 +15,6 @@ body {
 
 nav {
   background: -webkit-linear-gradient(top, #8b8b8b 0%, #6a6a6a 50%, #5e5e5e 51%, #717171 100%);
-  width: 68%;
   margin-bottom: 5%;
   -webkit-font-smoothing: antialiased;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
@@ -23,11 +22,9 @@ nav {
 }
 
 nav > ul {
-  display: flex;
   list-style: none;
   align-items: center;
   vertical-align: middle;
-  width: 100%;
   padding-left: 0;
 }
 
@@ -36,7 +33,6 @@ nav > ul {
   width: 10%;
   border-right: solid black 1px;
   font-size: 14px;
-  color: white;
   line-height: 35px;
 }
 
@@ -45,13 +41,7 @@ nav > ul {
 }
 
 footer a {
-  text-decoration: none;
   color: #2d70d2;
-}
-
-.nav-li a {
-  color: white;
-  text-decoration: none;
 }
 
 .apple-logo-li {
@@ -74,11 +64,9 @@ footer a {
   top: 35%;
   left: 10%;
   border-left: none;
-  color: white;
 }
 
 .search-input {
-  width: 90%;
   background-color: #666;
   border-radius: 30px;
   height: 50%;
@@ -87,20 +75,10 @@ footer a {
 
 .text-photos-container {
   margin-top: 0;
-  width: 60%;
-}
-
-.title-img {
-  width: 90%;
-}
-
-.text-image-2 {
-  width: 100%;
 }
 
 .text-image-3 {
   margin-top: 40px;
-  width: 60%;
   border-bottom: solid transparent 1px;
 }
 
@@ -109,18 +87,12 @@ footer a {
 }
 
 .grid-images {
-  display: flex;
   border: solid 1px white;
   border-right-style: none;
   justify-content: center;
 }
 
-.grid-row-images {
-  width: 100%;
-}
-
 footer {
-  width: 68%;
   font-size: 10px;
   line-height: 1.2;
   background-color: white;
@@ -178,4 +150,32 @@ footer a:hover {
 
 .m-auto {
   margin: auto;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-68 {
+  width: 68%;
+}
+
+.dis-flex {
+  display: flex;
+}
+
+.text-none {
+  text-decoration: none;
+}
+
+.w-color {
+  color: white;
 }
