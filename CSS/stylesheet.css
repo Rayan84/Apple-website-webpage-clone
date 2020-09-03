@@ -87,7 +87,6 @@ footer a {
 }
 
 .grid-images {
-  border: solid 1px white;
   border-right-style: none;
   justify-content: center;
 }
@@ -178,4 +177,8 @@ footer a:hover {
 
 .w-color {
   color: white;
+}
+
+.border-white-1px {
+  border: solid white 1px;
 }
