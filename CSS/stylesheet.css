@@ -120,6 +120,7 @@ footer a {
 }
 
 footer {
+  width: 68%;
   font-size: 10px;
   line-height: 1.2;
   background-color: white;
@@ -130,17 +131,8 @@ footer a:hover {
   text-decoration: underline;
 }
 
-.list {
-  justify-content: space-between;
-}
-
 .inline-block {
   display: inline-block;
-}
-
-.list-para {
-  margin-left: 10%;
-  margin-right: 5%;
 }
 
 .footer-links > li {
@@ -157,10 +149,6 @@ footer a:hover {
 
 .footer-links > li img {
   width: 15px;
-}
-
-.last-para {
-  margin-left: 10%;
 }
 
 .pointer,
